@@ -6,6 +6,7 @@ import { AuthModule } from './auth/auth.module';
 import { SubscriptionsModule } from './subscriptions/subscriptions.module';
 import { CreatorsModule } from './creators/creators.module';
 import { PostsModule } from './posts/posts.module';
+import { FeedModule } from './feed/feed.module';
 import { NotificationsModule } from './notifications/notifications.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule, ConfigService } from '@nestjs/config';
@@ -46,6 +47,7 @@ import { TipsModule } from './tips/tips.module';
     SubscriptionsModule,
     CreatorsModule,
     PostsModule,
+    FeedModule,
     NotificationsModule,
     AuditModule,
     AdminModule,
